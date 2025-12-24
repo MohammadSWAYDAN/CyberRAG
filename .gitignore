@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Vector Database (Generated Artifact)
+faiss_index/
+
+# IDE Settings
+.vscode/
+.idea/
+
+# Drafts and Misc
+*_Post_*.md
+*.docx
+RAG_Evaluation_Test_Plan.md
