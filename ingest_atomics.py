@@ -15,7 +15,7 @@ def main():
     
     # --- CPU CHECK & IMPORT VALIDATION ---
     try:
-        import faiss
+        import faiss # for embedding
         print(f"FAISS (CPU) successfully imported. Version: {faiss.__version__}")
         print("ℹ  Running in CPU mode as requested.")
     except ImportError:
